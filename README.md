@@ -1,4 +1,3 @@
-# RNA_Seq_Step3
 ## Step 6: Read Alignment with HISAT2
 
 Normally, in RNA-Seq workflows, the first step for alignment involves building an index of the reference genome using HISAT2. This index is crucial for efficient alignment of RNA-seq reads to the genome. However, since you already have the HISAT2 index files located in the chrX_data/indexes folder (specifically chrX_tran), this step is skipped.
